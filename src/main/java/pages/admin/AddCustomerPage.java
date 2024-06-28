@@ -24,7 +24,7 @@ public class AddCustomerPage extends LoginPage {
         writeTextInWebElement(LAST_NAME, "Ducheva");
     }
 
-    public static String fillInEmail() {
+    public static String fillInEmailAddress() {
         String prefix = RandomStringUtils.randomAlphanumeric(7);
         String suffix = RandomStringUtils.randomAlphabetic(5);
         String emailAddress = prefix + "@" + suffix + ".com";

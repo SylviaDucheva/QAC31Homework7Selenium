@@ -9,7 +9,7 @@ public class AddCustomerTest extends NavigationCustomerPageTest {
         AddCustomerPage.waitForPageToBeDisplayed();
         AddCustomerPage.fillInFirstName();
         AddCustomerPage.fillInLastName();
-        AddCustomerPage.fillInEmail();
+        AddCustomerPage.fillInEmailAddress();
         AddCustomerPage.fillInTelephone();
         AddCustomerPage.fillInPassword();
         AddCustomerPage.confirmPassword();

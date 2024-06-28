@@ -15,7 +15,7 @@ public class NavigationCustomerPageTest extends LoginPageTest {
         AddCustomerPage.waitForPageToBeDisplayed();
         AddCustomerPage.fillInFirstName();
         AddCustomerPage.fillInLastName();
-        AddCustomerPage.fillInEmail();
+        AddCustomerPage.fillInEmailAddress();
         AddCustomerPage.fillInTelephone();
         AddCustomerPage.fillInPassword();
         AddCustomerPage.confirmPassword();
